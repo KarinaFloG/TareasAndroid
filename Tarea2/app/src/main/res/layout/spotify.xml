@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:background="@drawable/fondo2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproduciendo desde artista"
+            android:textSize="24sp"
+            tools:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColorLink="@android:color/background_light"
+            android:layout_gravity="center_horizontal"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The doors"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColorLink="@android:color/background_light"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="35dp"
+    />
+
+
+    <TextView
+            android:layout_width="325dp"
+            android:layout_height="75dp"
+            android:text="Been Down So Long"
+            android:textSize="24sp"
+            android:textColorLink="@android:color/background_light"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="315dp"
+            android:paddingLeft="50dp"
+    />
+
+
+    <TextView
+            android:layout_width="148dp"
+            android:layout_height="46dp"
+            android:text="The doors"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="350dp"
+    />
+
+    <ImageView
+            android:layout_width="89dp"
+            android:layout_height="81dp"
+            android:src="@drawable/antes"
+            tools:background="@drawable/redondeado"
+            android:padding="10dp"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="30dp"
+    />
+
+
+    <ImageView
+            android:layout_width="85dp"
+            android:layout_height="79dp"
+            android:src="@drawable/play"
+            android:padding="10dp"
+            android:layout_gravity="bottom|center"
+            tools:background="@drawable/redondeado"
+            android:layout_margin="30dp"
+    />
+
+    <ImageView
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            android:src="@drawable/next"
+            tools:background="@drawable/redondeado"
+            android:padding="10dp"
+            android:layout_gravity="bottom|right"
+            android:paddingBottom="100dp"
+            android:layout_margin="30dp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dispositivos disponibles"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_gravity="bottom|center_horizontal"
+    />
+
+
+
+
+</FrameLayout>
